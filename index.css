@@ -1,0 +1,71 @@
+@font-face
+{
+    font-family: "Old English Text MT";
+    src: url("font/Old English Text MT.ttf");
+}
+
+h1
+{
+    font-family: "Old English Text MT";
+    font-size: 70px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2
+{
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-family: "Kelly Slab", cursive;
+    font-size: 40px;
+}
+
+body
+{
+    background: url(img/background2.jpg);
+}
+
+.newspaper
+{
+    -webkit-column-count: 4;
+    -webkit-column-rule: 1px solid black;;
+    font-size: 15px;
+    font-family: 'Jura', sans-serif;
+    hyphens: manual;
+}
+
+blockquote
+{
+    display: block;
+    text-align: center;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding-top: 15px;
+    padding-bottom: 0;
+    margin: 10px;
+    font-family: arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.author
+{
+    font-weight: lighter;
+    display: block;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+figcaption
+{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.article:first-letter
+{
+    font-size: 50px;
+    font-weight: bold;
+}
