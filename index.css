@@ -13,12 +13,23 @@ h1
     margin-bottom: 20px;
 }
 
+img.ontop
+{
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+
 h2
 {
+    display: block;
+    width: 100%;
     margin-top: 20px;
     margin-bottom: 0;
     font-family: "Kelly Slab", cursive;
     font-size: 40px;
+    text-transform: uppercase;
+    -webkit-column-break-inside: avoid;
 }
 
 body
@@ -39,8 +50,8 @@ blockquote
 {
     display: block;
     text-align: center;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
     padding-top: 15px;
     padding-bottom: 0;
     margin: 10px;
@@ -68,4 +79,34 @@ figcaption
 {
     font-size: 50px;
     font-weight: bold;
+}
+
+.newspaper img
+{
+    width: 100%;
+    margin: auto;
+}
+
+figure.single
+{
+    display: block;
+    width: 100%;
+    margin: auto;
+    -webkit-column-break-inside: avoid;
+}
+
+.addinfo
+{
+    display: block;
+    margin: 5px;
+    border: 10px double black;
+    padding: 5px;
+    -webkit-column-break-inside: avoid;
+}
+
+img.oncenter
+{
+    display: block;
+    -webkit-column-span: all;
+    width: 50%;
 }
